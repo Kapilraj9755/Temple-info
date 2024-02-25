@@ -1,0 +1,26 @@
+
+<% layout('layouts/boilerplate') -%>
+    
+            <% for( let Tem of AllTemples ) { %>
+                <div class="card">
+
+                    <h4><img  src="<%= Tem.img %> "  alt="Img is not found"></h4>
+
+                    <div class="card-content">
+                        <div class="card-title"><%= Tem.name %></div>
+                        <div class="card-text"><%= Tem.Address %></div>
+
+                        <a  href="/Temples/<%= Tem.id %>"  class="card-text show ">Show</a>
+                        <a href="/Temples/<%= Tem.id %>/edit"  class="card-text edit">Edit</a>
+
+                        <form  action="/Temples/<%= Tem._id %>?_method=DELETE" method="POST" >
+                            <button class="btn btn-danger">Delete  </button>
+
+                        </form> 
+                        
+                    </div>
+                </div> 
+                    
+                   
+            <% } %>
+    

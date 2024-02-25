@@ -1,0 +1,15 @@
+
+<% layout('layouts/boilerplate') -%>
+    
+    <h1 class="Welcome">Welcome to  <%= CurrentTem.name %> </h1> 
+     
+    <div style="text-align: center;" class="showcard" >
+ <div class="showcard-content">
+      <img  class="tem_img" src="<%= CurrentTem.img %>" >
+            <div style="text-align: center;" class="card-title" >Temple Name : <%= CurrentTem.name %></div>
+            <div style=" text-align: center;" class="card-text">Address : <%= CurrentTem.Address %></div> <br>
+            <div class="card-text">About<%= CurrentTem.about %></div>
+
+        </div>
+    </div> 
+              

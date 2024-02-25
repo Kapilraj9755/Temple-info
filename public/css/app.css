@@ -1,0 +1,151 @@
+/* Style for the card */
+.card {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    background: #d7bfbf;
+    display: inline-flex;
+    text-align: center;
+    justify-content: space-evenly;
+    border: 2px solid black;
+   
+    
+     
+}
+
+
+
+/* Style for the card image */
+.card img {
+  
+    width: 100%;
+    height: 280px;
+}
+
+/* Style for the card content */
+.card-content {
+    padding: 16px;
+}
+
+/* Style for the card title */
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+/* Style for the card text */
+.card-text {
+    font-size: 14px;
+    color: #555;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.form-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Style for the form inputs */
+.form-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+/* Style for the submit button */
+.form-submit {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.show , .edit  {
+    text-decoration: none;
+    margin-right: 10px;
+    color: blue;
+    font-size: 20px;
+}
+
+/* Showcard */
+
+.showcard{
+  
+    width:86%;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    
+
+   
+}
+.showcard-content{
+    padding: 16px;
+}
+ 
+.Welcome {
+    text-align: center;  
+}
+.tem_img{
+    border: 2px solid black;
+    width: 100%;
+ 
+    overflow: auto;
+}
+.btn{
+    margin-top: 10px;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+header {
+  background-color: #ffcc00;
+  padding: 15px;
+  text-align: center;
+}
+
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
